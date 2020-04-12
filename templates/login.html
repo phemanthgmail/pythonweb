@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #31708f;
+        }
+        
+        .modal-header,
+        h4,
+        .close {
+            background-color: #2f4d9c;
+            color: white !important;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .modal-footer {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-5">
+            <!-- Modal content-->
+            <div class="modal-content" style="position: relative;top: 23px;">
+                <div class="modal-header">
+
+                    <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+
+                </div>
+
+                <div class="modal-body" style="padding:40px 50px;">
+                    <form name="loginForm" id="loginForm" role="form">
+
+
+
+                        <div class="form-group">
+                            <label for="email"><span class="glyphicon glyphicon-envelope"></span> Username</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username">
+                        </div>
+                        <div class="form-group">
+                            <label for="PassWord"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Enter PassWord">
+                        </div>
+
+                        <button type="submit" class="btn btn-success center-block" id="btnReg"><span class="glyphicon glyphicon-off"></span> Login</button>
+
+                    </form>
+
+                </div>
+                <div align="center" id="regdsp" style="text-decoration:underline; color:brown; padding-bottom:15px;">
+                    <div>
+
+                    </div>
+
+                </div>
+
+
+</body>
+
+</html>
